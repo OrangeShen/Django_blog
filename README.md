@@ -1,14 +1,14 @@
 # Django_blog
-https://github.com/Andrew-liu/my_blog_tutorial
-This is a learning progress of building a simple blog using Django 2.0.1, which is the newest version.
-  However, based on the gitbook 《Django搭建简易博客教程》, which uses a old version of Django, I came across many problems, so I will list all the differeces and try to update them in my code.
-  Feel free to check it out and put forword your questions.
-  My list of development enviroment:
-  * macOS High Sierra 10.13.2
-  * Python 3.6.4
-  * Django 2.0.1
-  * vs code 1.19.3
-  * virtualenv 15.1.0
+https://github.com/Andrew-liu/my_blog_tutorial  
+This is a learning progress of building a simple blog using Django 2.0.1, which is the newest version.  
+  However, based on the gitbook 《Django搭建简易博客教程》, which uses a old version of Django, I came across many problems, so I will list all the differeces and try to update them in my code.  
+  Feel free to check it out and put forword your questions.   
+  My list of development enviroment:  
+  * macOS High Sierra 10.13.2  
+  * Python 3.6.4  
+  * Django 2.0.1  
+  * vs code 1.19.3  
+  * virtualenv 15.1.0  
 ## Day 1
   ### Create a Python virtual enviroment
      $ virtualenv -p /usr/local/bin/python3 ENV3
