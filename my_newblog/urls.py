@@ -19,6 +19,12 @@ from article import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    re_path(r'^$', views.home),
-    re_path(r'^(?P<my_args>\d+)/$', views.detail),
+    re_path(r'^$', views.home, name="home"),
+    re_path(r'^(?P<id>\d+)/$', views.detail, name="detail"),
+    re_path(r'^test/$', views.test, name="test"),
+    re_path(r'^archives/$', views.archives, name="archives"),
+    re_path(r'^aboutme/$', views.about_me, name="aboutme"),
+    re_path(r'^tag(?P<tag>\w+)/$', views.search_tag, name="search_tag"),
+    re_path(r'^search/$', views.blog_search, name="search"),
+    re_path(r'^RSSFeed/$', views.RSSFeed(), name="RSS"),
 ]

@@ -1,0 +1,1 @@
+# Make the templatetags folder could be seen as a package
