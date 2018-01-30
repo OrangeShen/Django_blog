@@ -45,4 +45,4 @@ urlpatterns = [
 ### I didn't manage to using the plugin bootstrap_admin because it raised exceptions that I don't know how to deal with.  
      
 ## Day 2  
-  stay tuned...
+  I found that there is few difference in the next half of this book, yet the comment feature "duoshuo" is no longer supported, and many had a problem for the code highlighting, maybe it's just because you didn't use the correct markdown grammar. So if there are further questions, please contact me through email, my email address is: 897139816@qq.com.
